@@ -57,12 +57,14 @@ button {
 
 #watchVideoBtn {
     position: absolute;
-    opacity: 0; 
+    opacity: 1; 
     transition: opacity 0.3s ease;
     width:  600px;
     height: 80px;
     top: 680px; /* Ajuste a posição conforme necessário */
-    right: 50px; /* Ajuste a posição conforme necessário */
+    margin-left: -300px;
+    right: 50%;
+    left: 50%;
     z-index: 2; /* Certifique-se de que o botão está acima do contêiner do livro */
 }
 
